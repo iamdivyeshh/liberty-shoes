@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"> <!-- External CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Liberty Shoes</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href=""><img src="./img/logo.png" alt="Liberty Shoes"></a> <!-- Logo -->
+        </div>
+        <nav>
+            <ul id="menuItems">
+                <li><a href="index.html">Home</a></li> <!-- Home link -->
+                <li><a href="./item.html">Product</a></li> <!-- Product link -->
+                <li><a href="./account.html">Login</a></li> <!-- Login link -->
+                <li><a href="">About</a></li> <!-- About link -->
+                <li><a href="">Contact us</a></li> <!-- Contact us link -->
+            </ul>
+        </nav>
+        <a href="./cart.html"><img src="./img/cart1.png" width="30px" height="30px"></a>
+        <img src="./img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+
+    <!-- -----------------cart item details-------------------- -->
+
+    <div class="small-cont cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./img/shoes/shoes5.jpg">
+                        <div>
+                            <p>Men White Shoes</p>
+                            <small>Price: Rs. 2690.00</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs. 2690.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./img/shoes/shoes4.jpg">
+                        <div>
+                            <p>Men black Shoes</p>
+                            <small>Price: Rs. 2690.00</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs. 2690.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./img/shoes/shoes3.jpg">
+                        <div>
+                            <p>Men blue Shoes</p>
+                            <small>Price: Rs. 2690.00</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs. 2690.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>SubTotal</td>
+                    <td>Rs. 6000.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs. 100.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs. 6100.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- ---------------Footer---------------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="./img/playstore.png" alt="">
+                        <img src="./img/appstore.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./img/logo.png " alt="">
+                    <p>Download app for android and ios mobile phone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Spot</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Liberty Shoes</p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

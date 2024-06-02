@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"> <!-- External CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Liberty Shoes</title> <!-- Page title -->
+</head>
+
+<body>
+    <div class="header"> <!-- Header section -->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href=""><img src="./img/logo.png" alt="Liberty Shoes"></a> <!-- Logo -->
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="index.html">Home</a></li> <!-- Home link -->
+                        <li><a href="./item.html">Product</a></li> <!-- Product link -->
+                        <li><a href="./account.html">Login</a></li> <!-- Login link -->
+                        <li><a href="">About</a></li> <!-- About link -->
+                        <li><a href="">Contact us</a></li> <!-- Contact us link -->
+                    </ul>
+                </nav>
+                <a href="./cart.html"><img src="./img/cart1.png" width="30px" height="30px"></a>
+                <img src="./img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Buy Now!<br>Trending Style!</h1>
+                    <p>Ever since the boom of social media, fashionable<br> sneakers have truly levelled up in terms of
+                        comfort and design. People have started expressing themselves through quirky sneaker designs
+                        offered</p>
+                    <a href="item.html" class="btn">Explore more &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./img/shoes/shoes3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Featured catagory -->
+    <div class="categories">
+        <div class="small-cont">
+            <div class="row">
+                <div class="col-3">
+                    <img id="anim-shoe" style="position:relative;" src="./img/shoes/shoes2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="./img/shoes/shoes3.jpg">
+                </div>
+                <div class="col-3">
+                    <img id="anim-shoe2" style="position:relative;" src="./img/shoes/shoes4.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="small-cont">
+            <h2 class="title">Featured Products</h2>
+            <a class="view-more" href="">View More &#8594;</a>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./img/shoes/shoes5.jpg">
+                    <h4>Men White Casual Sneakers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs. 2490.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./img/shoes/shoes4.jpg">
+                    <h4>Men Black Casual Sneakers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs. 2690.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./img/shoes/shoes5.jpg">
+                    <h4>Men Blue Casual Sneakers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs. 2690.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./img/shoes/shoes4.jpg">
+                    <h4>Men White Casual Sneakers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs. 2690.00</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured catagory -->
+
+        <h2 class="title">Latest Products</h2>
+        <a class="view-more" href="">View More &#8594;</a>
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/shoes/shoes3.jpg">
+                <h4>Men Blue Casual Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 2490.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes/shoes2.jpg">
+                <h4>Men White Casual Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 2690.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes/shoes3.jpg">
+                <h4>Men Blue Casual Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 2690.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes/shoes2.jpg">
+                <h4>Men White Casual Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 2690.00</p>
+            </div>
+        </div>
+
+        <!-- -------------Offers------------------------ -->
+
+        <div class="offer">
+            <div class="small-cont">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="./img/shoes/shoes2.jpg" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Crocs</p>
+                        <h1>CLASSIC RO CLOG 'GREEN IVY'</h1>
+                        <small>Futura Laboratories and Crocs have joined forces in a dynamic collaboration,
+                            introducing
+                            two unique designs of the Classic Clogs that fuse the iconic comfort of Crocs with
+                            the bold
+                            street art aesthetics of Futura Laboratories.</small><br>
+                        <a href="" class="btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------testimonial---------------------- -->
+        <div class="testimonial">
+            <div class="small-cont">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloremque
+                            error
+                            ducimus porro illo nihil a, non consequuntur optio fuga libero beatae.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="./img/user-1.jpg">
+                        <h3>Sean Parker</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloremque
+                            error
+                            ducimus porro illo nihil a, non consequuntur optio fuga libero beatae.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="./img/user-2.jpg">
+                        <h3>John Snow</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloremque
+                            error
+                            ducimus porro illo nihil a, non consequuntur optio fuga libero beatae.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="./img/user-4.jpg">
+                        <h3>Peter marry</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------Brands ---------------------- -->
+        <div class="brands">
+            <div class="small-cont">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./img/brands/adidas.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./img/brands/supreme.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./img/brands/nike.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./img/brands/puma.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./img/brands/vans.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------Footer---------------------- -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download app for android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="./img/playstore.png" alt="">
+                            <img src="./img/appstore.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./img/logo.png " alt="">
+                        <p>Download app for android and ios mobile phone.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Spot</li>
+                            <li>Return Policy</li>
+                            <li>Join Affilate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow Us</h3>
+                        <ul>                                                                                                                                                        
+                            <li>Instagram</li>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Join Affilate</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2024 - Liberty Shoes</p>
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+
+</html>
